@@ -1,2 +1,8 @@
-# NTIRE2022-Efficient-SR
-Official Pytorch code for MobileSR: A Mobile-friendly Transformer for Efficient Image Super-Resolution
+# Results
+| Model | val/Test | Runtime(s) | Params(G) | Flops(G) | Activations(M) | Memory(M) |
+| :-----| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | 
+| MSRResNet | 29.00/28.70| 0.114| 1.517| 166.36 | 292.55 | 610 |
+| IMDN | 29.13/28.78| 0.050| 0.893 | 58.53 | 154.14 | 120 |
+| Ours_v1 | 29.03/28.72| -| 0.217 | 10.16 | - | - |
+| Ours_v2 | 28.97/28.68| -| 0.176 | 8.73 | - | - |
+| Ours_v3 | 29.85/-| -| 0.129 | 6.39 | - | - |
