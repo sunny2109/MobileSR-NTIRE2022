@@ -1,5 +1,5 @@
 # Results
-| Model | val/Test | Runtime(s) | Params(G) | Flops(G) | Activations(M) | Memory(M) |
+| Model | Val/Test | Runtime(s) | Params(G) | Flops(G) | Activations(M) | Memory(M) |
 | :-----| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | 
 | MSRResNet | 29.00/28.70| 0.114| 1.517| 166.36 | 292.55 | 610 |
 | IMDN | 29.13/28.78| 0.050| 0.893 | 58.53 | 154.14 | 120 |
