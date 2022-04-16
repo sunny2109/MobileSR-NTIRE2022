@@ -105,10 +105,4 @@ def main():
     logger.info('------> Average runtime of ({}) is : {:.6f} seconds'.format(L_folder, ave_runtime))
 
 if __name__ == '__main__':
-#     from fvcore.nn import flop_count_str, flop_count_table, FlopCountAnalysis, ActivationCountAnalysis
-#     a = torch.randn(1, 3, 256, 256)
-#     model = MobileSR() #IMDN(in_nc=3, out_nc=3, nc=64, nb=8, upscale=4)
-#     print(flop_count_table(FlopCountAnalysis(model, a), activations=ActivationCountAnalysis(model, a)))
-#     print(model(a).shape)
-
     main()
